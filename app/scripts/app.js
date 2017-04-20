@@ -1,4 +1,4 @@
-angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngTouch','ngAnimate'])
+angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'])
 
 .config(['$locationProvider', function($locationProvider) {
   $locationProvider.hashPrefix('');
