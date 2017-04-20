@@ -8,8 +8,7 @@
  *
  * Main module of the application.
  */
-angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'        
-])
+angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'])
 
 .config(['$locationProvider', function($locationProvider) {
   $locationProvider.hashPrefix('');
