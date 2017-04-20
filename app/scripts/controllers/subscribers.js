@@ -10,7 +10,7 @@
 angular.module('hlApp')
 
 .controller('SubscribersCtrl', function ($scope,$http,$modal) {
-$http.get('https://localhost:9000/subscribers.json')
+$http.get('subscribers.json')
 .then(function (response){
 $scope.subscribers = response.data;
 });
