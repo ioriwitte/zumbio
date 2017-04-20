@@ -8,14 +8,7 @@
  *
  * Main module of the application.
  */
-angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate',
-                        
-  'hlApp.subscribers',
-  'hlApp.team',
-  'hlApp.myStories',
-  'hlApp.product',
-  'hlApp.main'
-                        
+angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'        
 ])
 
 .config(['$locationProvider', function($locationProvider) {
