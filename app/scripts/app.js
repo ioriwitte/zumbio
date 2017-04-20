@@ -18,21 +18,21 @@ angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'])
 
   $routeProvider
  .when('/', {
-   templateUrl: 'views/main.html',
+   templateUrl: 'app/views/main.html',
    controller: 'MainCtrl'
    })
   .when('/subscribers', {
-    templateUrl: 'views/subscribers.html',
+    templateUrl: 'app/views/subscribers.html',
     controller: 'SubscribersCtrl',
     controllerAs: 'subscribers'
   })
   .when('/team', {
-    templateUrl: 'views/team.html',
+    templateUrl: 'app/views/team.html',
     controller: 'TeamCtrl',
     controllerAs: 'team'
   })
   .when('/product', {
-    templateUrl: 'views/product.html',
+    templateUrl: 'app/views/product.html',
     controller: 'ProductCtrl',
     controllerAs: 'product'
   })
