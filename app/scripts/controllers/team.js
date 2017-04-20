@@ -10,6 +10,7 @@
 angular.module('hlApp')
   .controller('TeamCtrl', function ($scope) {
  
+  
 var pictures =$scope.pictures=[];
 var baseURL="http://lorempixel.com/300/180/business/";
 var titles=["Ibrahim Hassan","Jaisal Ashraf","Jori Witte",
