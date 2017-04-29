@@ -9,31 +9,49 @@
  */
 angular.module('hlApp')
   .controller('TeamCtrl', function ($scope) {
- 
-  
-var pictures =$scope.pictures=[];
-var baseURL="http://lorempixel.com/300/180/business/";
-var titles=["Ibrahim Hassan","Jaisal Ashraf","Jori Witte",
-"Ahmed Abdelgawad","Farbod Haselzadeh","Zhuoming Zhang"];
-var keywords=["ibrahim", "jaisal","jori","ahmed","farbod","zhuoming"];
-var dummyText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed erat turpis. Integer eget elit. Sed sed erat turpis. Integer eget consectetur quam. Sed at quam ut dolor varius condimentum et sit amet odio.";
 
+var pictures =$scope.pictures=[];
+
+var img = [{ url: "images/ibrahim.png" },{ url: "images/jaisal.png" },{ url: "images/jori.png" },
+{ url: "images/ahmed.png" },{ url: "images/farbod.png" },{ url: "images/zhuoming.png" }];
+
+var titles=["Ibrahim Hassan","Jaisal Ashraf","Jori Witte","Ahmed Abdelgawad","Farbod Haselzadeh","Zhuoming Zhang"];
+//var keywords=["ibrahim", "jaisal","jori","ahmed","farbod","zhuoming"];
+
+var subtitles=["Embedded Systems Engineer, CEO","Embedded Systems Engineer, CTO","Interaction Designer, COO","Embedded Systems Engineer, SSD","Embedded Systems Engineer, SM","User Experience & Interaction Design (UXD)"];
+
+
+var dummyText=[
+
+"Co founder of a sales agency, worked in telecommunications industry (Egypt). Ibrahim takes care of team communication and exploration of market potential. His experience comprises micro-controllers and software engineering.",
+
+"Jaisal worked for Intel Corporation, India. His experience comprises mixed signal IC and physical design, as well as IoT product development. He is responsible for hardware design and development of our product.",
+
+"Jori has work experience in automotive, software and telecommunications industry and handles our corporate finances. Jori's academic background is in Interaction Design and Industrial Psychology/Computer Science.",
+
+"Ahmed worked for xxx Corporation, Egypt. His experience comprises Mixed Signal IC and Physical Design, as well as IoT product development. He is taking care of the software development part of our product.",
+
+"Farbod is polyglot and qualifies for overseeing our sales activities due to his work experience in applied research at SICS/MDH. Besides this he is proficient in VHDL, SQL, Assembler and C programming.",
+
+"Zhuoming combines an academic background in Automation Engineering (China) with proficiency in Interaction Design and User Experience, which qualifies him to act as our lead interaction designer to shape our product.",
+
+];
 
 $scope.addPics=function(i){
 pictures.push({
-url:baseURL+keywords[i],
 title:titles[i],
-summary:dummyText
+subtitle:subtitles[i],
+url:img[i].url,
+summary:dummyText[i]
 });
 };
 
-for (var i=0;i<5;i++){
+for (var i=0;i<6;i++){
 $scope.addPics(i);
 }
 
-$scope.rate = 0;
-$scope.max = 10;
-$scope.isReadonly = false;
+//$scope.rate = 0;stack
+//$scope.max = 10;
+//$scope.isReadonly = false;
 
 });
-
