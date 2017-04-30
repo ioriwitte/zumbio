@@ -24,7 +24,10 @@ padding: 60px;
 }
 
 .thumbnails img{
-width:100%}
+/*width:100%*/
+width:  220px;
+height: 291px;
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
