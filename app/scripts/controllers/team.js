@@ -27,7 +27,7 @@ var dummyText=[
 
 "Jaisal worked for Intel Corporation, India. His experience comprises mixed signal IC and physical design, as well as IoT product development. He is responsible for hardware design and development of our product.",
 
-"Jori has work experience in automotive, software and telecommunications industry and handles our corporate finances. Jori's academic background is in Interaction Design and Industrial Psychology/Computer Science.",
+"Jori has work experience in automotive, software and telecommunications industry (Germany) and handles our corporate finances. Jori's academic background is in Interaction Design and Industrial Psychology/Computer Science.",
 
 "Ahmed worked for xxx Corporation, Egypt. His experience comprises Mixed Signal IC and Physical Design, as well as IoT product development. He is taking care of the software development part of our product.",
 
