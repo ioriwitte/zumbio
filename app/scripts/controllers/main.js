@@ -10,23 +10,23 @@
 
 angular.module('hlApp')
   .controller('MainCtrl', function ($scope) {
-    var baseURL='http://lorempixel.com/960/450/technics/';
-	$scope.setInterval=5000;  
+
+$scope.setInterval=5000;  
 
 $scope.slides = [
 {
-	title:'Remote Obstacle Detection',
-image:baseURL+'technics',
+title:'Remote Obstacle Detection',
+image:"images/carousel4.jpg",
 text:'Detect objects in inaccessible environments'
 },
 {
 title:'360° Scanning and Sensing',
-image:baseURL+'abstract',
+image:"images/carousel2.png",
 text:'Explore without light or GPS!'
 },
 {
 title:'Data Visualization',
-image:baseURL+'nature',
+image:"images/carousel2.png",
 text:'Improve real-time operator insights!'
 }
 ];
