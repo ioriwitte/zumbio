@@ -16,17 +16,17 @@ $scope.setInterval=5000;
 $scope.slides = [
 {
 title:'Remote Obstacle Detection',
-image:"images/carousel4.jpg",
+image:"app/images/carousel4.jpg",
 text:'Detect objects in inaccessible environments'
 },
 {
 title:'360° Scanning and Sensing',
-image:"images/carousel2.png",
+image:"app/images/carousel2.png",
 text:'Explore without light or GPS!'
 },
 {
 title:'Data Visualization',
-image:"images/carousel2.png",
+image:"app/images/carousel2.png",
 text:'Improve real-time operator insights!'
 }
 ];
