@@ -21,12 +21,12 @@ text:'Detect objects in inaccessible environments'
 },
 {
 title:'360° Scanning and Sensing',
-image:baseURL+'technics/',
+image:baseURL+'abstract/',
 text:'Explore without light or GPS!'
 },
 {
 title:'Data Visualization',
-image:baseURL+'technics/',
+image:baseURL+'nature/',
 text:'Improve real-time operator insights!'
 }
 ];
