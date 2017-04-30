@@ -16,17 +16,17 @@ angular.module('hlApp')
 $scope.slides = [
 {
 	title:'Remote Obstacle Detection',
-image:baseURL+'technics/',
+image:baseURL+'technics',
 text:'Detect objects in inaccessible environments'
 },
 {
 title:'360° Scanning and Sensing',
-image:baseURL+'abstract/',
+image:baseURL+'abstract',
 text:'Explore without light or GPS!'
 },
 {
 title:'Data Visualization',
-image:baseURL+'nature/',
+image:baseURL+'nature',
 text:'Improve real-time operator insights!'
 }
 ];
