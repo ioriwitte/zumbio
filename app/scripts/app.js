@@ -11,10 +11,10 @@ angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'])
    templateUrl: 'views/main.html',
    controller: 'MainCtrl'
    })
-  .when('/subscribers', {
-    templateUrl: 'views/subscribers.html',
-    controller: 'SubscribersCtrl',
-    controllerAs: 'subscribers'
+  .when('/registration', {
+    templateUrl: 'views/registration.html',
+    controller: 'RegistrationCtrl',
+    controllerAs: 'registration'
   })
   .when('/team', {
     templateUrl: 'views/team.html',
