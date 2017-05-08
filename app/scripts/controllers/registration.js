@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc function
- * @name hl2304App.controller:RegistrationCtrl
+ * @name hlApp.controller:RegistrationCtrl
  * @description
  * # RegistrationCtrl
  * Controller of the hl2304App
