@@ -5,7 +5,7 @@
  * @name hlApp.controller:RegistrationCtrl
  * @description
  * # RegistrationCtrl
- * Controller of the hl2304App
+ * Controller of the hlApp
  */
 
 var module = angular.module('hlApp');
