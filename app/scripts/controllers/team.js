@@ -18,7 +18,7 @@ var img = [{ url: "images/ibrahim.png" },{ url: "images/jaisal.png" },{ url: "im
 var titles=["Ibrahim Hassan","Jaisal Ashraf","Jori Witte","Ahmed Abdelgawad","Farbod Haselzadeh","Zhuoming Zhang"];
 //var keywords=["ibrahim", "jaisal","jori","ahmed","farbod","zhuoming"];
 
-var subtitles=["Embedded Systems Engineer, CEO","Embedded Systems Engineer, CTO","Interaction Designer, COO","Embedded Systems Engineer, SSD","Embedded Systems Engineer, SM","User Experience & Interaction Design (UXD)"];
+var subtitles=["Embedded Systems Engineer, CEO","Embedded Systems Engineer, CTO","Interaction Designer, COO","Embedded Systems Engineer, SSD","Embedded Systems Engineer, SM","User Experience & Interaction Designer, UXM"];
 
 
 var dummyText=[
