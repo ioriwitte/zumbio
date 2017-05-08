@@ -12,8 +12,6 @@ padding-top: 50px;
 width: 100%;
 }
 
-
-
 .hero-unit {
 font-size: 18px;
 font-weight: 200;
@@ -27,6 +25,32 @@ padding: 60px;
 /*width:100%*/
 width:  220px;
 height: 291px;
+}
+
+/*Chapter 6: Working With Forms*/
+
+body {
+font: normal 16px/1.4 Georgia;
+}
+input:not([type='checkbox']), select {
+width: 250px;
+}
+select, input {
+padding: 5px;
+margin-top: 12px;
+font-family: inherit;
+}
+input[type='submit'] {
+width: 264px;
+}
+form span {
+color: red;
+}
+input[name='email'].ng-dirty.ng-invalid {
+color: red;
+}
+input[name='email'].ng-dirty.ng-valid {
+color: green;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
