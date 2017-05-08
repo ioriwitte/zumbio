@@ -8,7 +8,7 @@
  * Controller of the hl2304App
  */
 
-var module = angular.module('hl2304App');
+var module = angular.module('hlApp');
 
 module.factory('memberDataStoreService', function ($http) {
 var memberDataStore = {};
