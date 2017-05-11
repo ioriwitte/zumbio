@@ -17,7 +17,7 @@ url:"images/ghsystemarchitecture.png"},
 
 { title:"Real-time information retrieval and data visualization",
 content:"Sugar besides being bad for diabetes, it also causes overweight and obesity problems. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in.",
-url:"images/tiltrangeroverlaylarge.jpg"}, 
+url:"images/tiltrangeroverlaylarge.png"}, 
 
 { title:"Operator control and interactivity of visualized information",
 content:"Sugar besides being bad for diabetes, it also causes overweight and obesity problems.Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in, venenatis ut nisl. Quisque eget bibendum libero. Nam nec mi augue.",
