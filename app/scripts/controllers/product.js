@@ -21,7 +21,7 @@ url:"images/tiltrangeroverlaylarge.png"},
 
 { title:"Operator control and interactivity of visualized information",
 content:"Sugar besides being bad for diabetes, it also causes overweight and obesity problems.Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in, venenatis ut nisl. Quisque eget bibendum libero. Nam nec mi augue.",
-url:"images/carousel4.jpg"}
+url:"images/scifidatainteraction.png"}
 ];
 
 });
