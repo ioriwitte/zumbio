@@ -25,7 +25,7 @@ var dummyText=[
 
 "Co founder of a sales agency, worked in telecommunications industry (Egypt). Ibrahim takes care of team communication and exploration of market potential. His experience comprises micro-controllers and software engineering.",
 
-"Jaisal, our tech savy, worked for Intel Corporation, India. His experience comprises mixed signal IC and physical design, as well as IoT product development. He is responsible for hardware design and development of our product.",
+"Jaisal, our tech savvy, worked for Intel Corporation, India. His experience comprises mixed signal IC and physical design, as well as IoT product development. He is responsible for hardware design and development of our product.",
 
 "Jori has work experience in automotive, software and telecommunications industry (Germany) and handles our corporate finances. Jori's academic background is in Interaction Design and Industrial Psychology/Computer Science.",
 
