@@ -29,7 +29,7 @@ var dummyText=[
 
 "Jori has work experience in automotive, software and telecommunications industry (Germany) and handles our corporate finances. Jori's academic background is in Interaction Design and Industrial Psychology/Computer Science.",
 
-"Ahmed worked for a multinational Chinese telecommunications' provider in Egypt. His experience comprises Mixed Signal IC and Physical Design, as well as IoT product development. He is taking care of the software development part of our product.",
+"Ahmed worked for a multinational Chinese telecommunications' provider in Egypt. His experience comprises Mixed Signal IC, Physical Design, and IoT product development. He is taking care of the software development of our product.",
 
 "Farbod is polyglot and qualifies for overseeing our sales activities due to his work experience in applied research at SICS/MDH. Besides this he is proficient in VHDL, SQL, Assembler and C programming.",
 
