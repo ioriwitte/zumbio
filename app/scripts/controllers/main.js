@@ -50,7 +50,7 @@ summary:'We offer significant cost reductions due to faster access to rugged are
 {
 img:baseURL+'sports',
 title:'Contact Us',
-summary:'#111, Good Health Blvd, Happy Place, Antartica, Zip-432167'
+summary:'c/o THINGS, Drottning Kristinas väg 53, 114 28 Stockholm, Sweden'
 }];
 
 
