@@ -12,6 +12,10 @@ padding-top: 50px;
 width: 100%;
 }
 
+.bottom-three {
+     margin-bottom: 1cm;
+}
+
 .hero-unit {
 font-size: 18px;
 font-weight: 200;
@@ -19,11 +23,6 @@ line-height: 30px;
 background-color: #eee;
 border-radius: 6px;
 padding: 60px;
-}
-
-
-.bottom-three {
-     margin-bottom: 1cm;
 }
 
 .thumbnails img{
