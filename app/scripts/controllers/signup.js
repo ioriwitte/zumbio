@@ -8,7 +8,7 @@
  * Controller of the hl2304App
  */
  /**
-angular.module('hl2304App')
+angular.module('hlApp')
   .controller('SignupCtrl', ['$scope','$location','$firebaseAuth', function($scope,$location,$firebaseAuth) {
  	$scope.mesg = 'Hello';
 
@@ -45,7 +45,7 @@ angular.module('hl2304App')
 };
 }]);**/
 
-angular.module('hl2304App')
+angular.module('hlApp')
   .controller('SignupCtrl', ['$scope','FbAuthService',function($scope,FbAuthService){
 
     $scope.register = function(email,password,info){
@@ -55,7 +55,7 @@ angular.module('hl2304App')
 
 }]);
 
-  angular.module('hl2304App')
+  angular.module('hlApp')
 
    .service('FbAuthService',['$firebaseAuth','$location',function($firebaseAuth,$location){
 
