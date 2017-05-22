@@ -8,18 +8,29 @@
 body{
 padding-top: 50px;
 }
+
 .carousel-image{
-width: 100%;
+  margin:auto;
+  width: 700px;
+  height: 500px;
+
 }
+
 
 /*img {
   width: 120px;
 }*/
 
+
+
+
+
 .container-footer {
   margin: auto;
   width: 100%;
   text-align: center;
+  align-items: center;
+  margin-bottom: -10px;
 }
 
 #footer {
@@ -50,9 +61,229 @@ width: 100%;
 }
 
 
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  padding: 15px 0;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;    
+}
+
+.btn, .form-control {
+    border-radius: 2px;
+    box-shadow: none !important;
+}
+
+/*FOOTER 1*/
+
+.footer1 a {
+    color: #DDD;
+    align-items: center;
+}
+
+.footer1 a:hover,
+.footer1 a:focus,
+.footer1 a:active {
+    color: #FFF;
+}
+
+.footer1 .footer {
+    background-color: #2E3436;
+    padding: 35px 0;
+    margin-top: 5em;
+}
+
+.footer1 .footer .footer-desc p {
+    color: #DDD;
+  margin: 15px 0 8px;
+}
+
+.footer1 .footer .social {
+    margin: 0 auto;
+    display: table;
+}
+
+.footer1 .footer .social li {
+    float: left;
+}
+
+.footer1 .footer .social li a {
+  display: block;
+    font-size: 1em;
+    color: #DDD;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #222728;
+    border-radius: 2px;
+    margin: 15px 4px
+}
+
+.footer1 .footer .social li a:hover {
+    background-color: #3A4144;
+}
+
+.footer1 .footer .input-group {
+    margin: 15px 0;
+}
+
+.footer1 .footer .form-control {
+    border-radius: 2px 0 0 2px;
+    background-color: #585C5D;
+    border-color: #585C5D;
+    color: #DDD;
+    font-size: 15px;
+}
+
+.footer1 .footer .form-control:hover,
+.footer1 .footer .form-control:focus {
+    border: 1px solid #222728;
+    background-color: #222728;
+}
+
+.footer1 .footer .input-group-addon {
+    border-radius: 0 2px 2px 0;
+    background-color: #F7931D;
+    color: #FFF;
+    border-color: #F7931D;
+    font-size: 15px;
+}
+
+.footer1 .footer-bottom {
+    background-color: #222728;
+    padding: 15px 0;
+    color: #DDD;
+    font-size: 13px;
+}
+
+.footer1 .footer-bottom ul li {
+    display: inline-block;
+}
+
+.footer1 .footer-bottom ul li a {
+    display: block;
+    padding-left: 8px;
+}
+
+.footer1 .footer-bottom ul li a:after {
+    content: "-";
+    padding-left: 8px;
+}
+
+.footer1 .footer-bottom ul li:last-child a:after {
+    content: "";
+}
+
+@media (max-width: 550px) {
+  .footer1 .footer-bottom .pull-left,
+  .footer1 .footer-bottom .pull-right {
+    float: none !important;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+
+
+/*Registration*/
+/*
+ * Globals
+ */
+
+/*
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /*color: #555;
+}
+
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  /*color: #333;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+/*
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+*/
+
+
+
+  /*display: block;
+  width: 100%;
+
+  /*width:  750px;
+  height: 436px;*/
+
+
+
+
 .bottom-three {
      margin-bottom: 1cm;
 }
+
+img {
+    max-width: 100%;
+}
+
+.animate {
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.zoom {
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.overlay.show {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.overlay img {
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+    position: fixed;
+    transform-origin: 0% 0%;
+    z-index: 3;
+}
+
+
 
 .hero-unit {
 font-size: 18px;
@@ -69,31 +300,7 @@ width:  220px;
 height: 291px;
 }
 
-/*Chapter 6: Working With Forms*/
 
-body {
-font: normal 16px/1.4 Georgia;
-}
-input:not([type='checkbox']), select {
-width: 250px;
-}
-select, input {
-padding: 5px;
-margin-top: 12px;
-font-family: inherit;
-}
-input[type='submit'] {
-width: 264px;
-}
-form span {
-color: red;
-}
-input[name='email'].ng-dirty.ng-invalid {
-color: red;
-}
-input[name='email'].ng-dirty.ng-valid {
-color: green;
-}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -121,6 +328,7 @@ color: green;
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  align-items: center;
 }
 
 input.ng-invalid{
@@ -130,6 +338,33 @@ border: thin solid #990000;
 input.ng-valid{
 border: thin solid #090;
 } 
+
+/*Chapter 6: Working With Forms*/
+
+body {
+font: normal 16px/1.4 Georgia;
+}
+input:not([type='checkbox']), select {
+width: 250px;
+}
+select, input {
+padding: 5px;
+margin-top: 12px;
+font-family: inherit;
+}
+input[type='submit'] {
+width: 264px;
+}
+form span {
+color: red;
+}
+input[name='email'].ng-dirty.ng-invalid {
+color: red;
+}
+input[name='email'].ng-dirty.ng-valid {
+color: green;
+}
+
 
 
 .gridStyle{
@@ -166,6 +401,20 @@ display:block;
   margin-top: 28px;
 }
 
+
+.center {
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -175,6 +424,7 @@ display:block;
   /* Remove the padding we set earlier */
   .header,
   .marketing,
+
   .footer {
     padding-left: 0;
     padding-right: 0;
