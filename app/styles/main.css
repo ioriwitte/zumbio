@@ -82,6 +82,25 @@ border: thin solid #090;
 display:block;
 }
 
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  padding: 15px 0;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;    
+}
+
+.btn, .form-control {
+    border-radius: 2px;
+    box-shadow: none !important;
+}
+
 /*FOOTER 1*/
 
 .footer1 a {
