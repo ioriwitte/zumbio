@@ -12,8 +12,6 @@ padding-top: 50px;
 width: 100%;
 }
 
-
-
 .hero-unit {
 font-size: 18px;
 font-weight: 200;
@@ -82,11 +80,11 @@ border: thin solid #090;
 display:block;
 }
 
-
+/*
 body {
   font-family: 'Alegreya Sans', sans-serif;
   padding: 15px 0;
-}
+}*/
 
 ul, ol {
     padding: 0;
