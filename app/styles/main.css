@@ -8,76 +8,78 @@
 body{
 padding-top: 50px;
 }
-
 .carousel-image{
-  margin:auto;
-  width: 700px;
-  height: 500px;
-
+width: 100%;
 }
 
 
-/*img {
-  width: 120px;
-}*/
 
-
-
-
-
-.container-footer {
-  margin: auto;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  margin-bottom: -10px;
+.hero-unit {
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+background-color: #eee;
+border-radius: 6px;
+padding: 60px;
 }
 
-#footer {
-  background-color: #01b3d0;
-  padding: 1em 0;
+.thumbnails img{
+/*width:100%*/
+width:  220px;
+height: 291px;
 }
 
-
-#footer-images ul {
-  padding: 0;
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-#footer-images li {
-  list-style: none;
-  margin: 0 10px;
-  display: block;
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
 }
 
-#footer-images ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
 }
 
-
-.row-fluid {
-  margin-bottom: -100px;
+input.ng-invalid{
+border: thin solid #990000;
 }
 
+input.ng-valid{
+border: thin solid #090;
+} 
 
-body {
-  font-family: 'Alegreya Sans', sans-serif;
-  padding: 15px 0;
+
+.gridStyle{
+  width:940px;
+  height:300px;
+}
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+    background-color: YellowGreen !important;
 }
 
-ul, ol {
-    padding: 0;
-    margin: 0;
+.ui-grid-row:nth-child(odd) .ui-grid-cell {
+    background-color: AliceBlue !important;
 }
 
-li {
-    list-style: none;    
-}
-
-.btn, .form-control {
-    border-radius: 2px;
-    box-shadow: none !important;
+.modal-body input{
+display:block;
 }
 
 /*FOOTER 1*/
@@ -192,197 +194,6 @@ li {
 }
 
 
-
-/*Registration*/
-/*
- * Globals
- */
-
-/*
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  /*color: #555;
-}
-
-
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  /*color: #333;
-}
-
-
-/*
- * Override Bootstrap's default container.
- */
-/*
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
-*/
-
-
-
-  /*display: block;
-  width: 100%;
-
-  /*width:  750px;
-  height: 436px;*/
-
-
-
-
-.bottom-three {
-     margin-bottom: 1cm;
-}
-
-img {
-    max-width: 100%;
-}
-
-.animate {
-    -webkit-transition: all .5s ease-out;
-    -moz-transition: all .5s ease-out;
-    -ms-transition: all .5s ease-out;
-    -o-transition: all .5s ease-out;
-    transition: all .5s ease-out;
-}
-
-.zoom {
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
-}
-
-.overlay {
-    background-color: rgba(255, 255, 255, 0);
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 2;
-}
-
-.overlay.show {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.overlay img {
-    cursor: -webkit-zoom-out;
-    cursor: zoom-out;
-    position: fixed;
-    transform-origin: 0% 0%;
-    z-index: 3;
-}
-
-
-
-.hero-unit {
-font-size: 18px;
-font-weight: 200;
-line-height: 30px;
-background-color: #eee;
-border-radius: 6px;
-padding: 60px;
-}
-
-.thumbnails img{
-/*width:100%*/
-width:  220px;
-height: 291px;
-}
-
-
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-  align-items: center;
-}
-
-input.ng-invalid{
-border: thin solid #990000;
-}
-
-input.ng-valid{
-border: thin solid #090;
-} 
-
-/*Chapter 6: Working With Forms*/
-
-body {
-font: normal 16px/1.4 Georgia;
-}
-input:not([type='checkbox']), select {
-width: 250px;
-}
-select, input {
-padding: 5px;
-margin-top: 12px;
-font-family: inherit;
-}
-input[type='submit'] {
-width: 264px;
-}
-form span {
-color: red;
-}
-input[name='email'].ng-dirty.ng-invalid {
-color: red;
-}
-input[name='email'].ng-dirty.ng-valid {
-color: green;
-}
-
-
-
-.gridStyle{
-  width:940px;
-  height:300px;
-}
-.ui-grid-row:nth-child(even) .ui-grid-cell {
-    background-color: YellowGreen !important;
-}
-
-.ui-grid-row:nth-child(odd) .ui-grid-cell {
-    background-color: AliceBlue !important;
-}
-
-.modal-body input{
-display:block;
-}
-
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
@@ -401,20 +212,6 @@ display:block;
   margin-top: 28px;
 }
 
-
-.center {
-    text-align: center;
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    text-align: center;
-}
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -424,7 +221,6 @@ display:block;
   /* Remove the padding we set earlier */
   .header,
   .marketing,
-
   .footer {
     padding-left: 0;
     padding-right: 0;
