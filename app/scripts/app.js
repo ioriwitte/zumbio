@@ -26,6 +26,11 @@ angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'])
     controller: 'ProductCtrl',
     controllerAs: 'product'
   })
+   .when('/signup', {
+        templateUrl: 'views/signup.html',
+        controller: 'SignupCtrl',
+        controllerAs: 'signup'
+  })
   .otherwise({
 redirectTo: '/'
 });
