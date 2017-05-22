@@ -82,6 +82,7 @@ border: thin solid #090;
 display:block;
 }
 
+
 body {
   font-family: 'Alegreya Sans', sans-serif;
   padding: 15px 0;
@@ -100,6 +101,7 @@ li {
     border-radius: 2px;
     box-shadow: none !important;
 }
+
 
 /*FOOTER 1*/
 
