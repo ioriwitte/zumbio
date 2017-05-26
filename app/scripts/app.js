@@ -1,4 +1,4 @@
-angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'])
+angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate','ngSanitize','youtube-embed'])
 
 .config(['$locationProvider', function($locationProvider) {
   $locationProvider.hashPrefix('');
@@ -30,6 +30,11 @@ angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate'])
         templateUrl: 'views/signup.html',
         controller: 'SignupCtrl',
         controllerAs: 'signup'
+  })
+    .when('/media', {
+    templateUrl: 'views/media.html',
+    controller: 'MediaCtrl',
+     controllerAs: 'media'
   })
   .otherwise({
 redirectTo: '/'
