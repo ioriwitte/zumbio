@@ -25,6 +25,6 @@ angular.module('hlApp')
  };
 
 
-  $scope.anotherGoodOne = 'https://www.youtube.com/watch?v=suG-c_i2fBQ';
+  $scope.anotherGoodOne = 'https://www.youtube.com/watch?v=iVvXB-Vwnco';
 });
 
