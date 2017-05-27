@@ -4,7 +4,7 @@ angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate','ngSanit
   $locationProvider.hashPrefix('');
 }])
 
-.config(function ($routeProvider) {
+.config(function ($routeProvider, $sanitize) {
 
   $routeProvider
  .when('/', {
