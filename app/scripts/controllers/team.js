@@ -12,7 +12,7 @@ angular.module('hlApp')
 
 var pictures =$scope.pictures=[];
 
-var img = [{ url: "images/ibrahim.png" },{ url: "images/jaisal.png" },{ url: "images/jori.png" },
+var img = [{ url: "images/ibrahim.png" },{ url: "images/jaisal.jpg" },{ url: "images/jori.png" },
 { url: "images/ahmed.png" },{ url: "images/farbod.png" },{ url: "images/zhuoming.png" }];
 
 var titles=["Ibrahim Hassan","Jaisal Ashraf","Jori Witte","Ahmed Abdelgawad","Farbod Haselzadeh","Zhuoming Zhang"];
