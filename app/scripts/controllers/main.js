@@ -26,7 +26,7 @@ text:'Explore without light or GPS!'
 },
 {
 title:'Data Visualization',
-url:"images/carousel2.png",
+url:"images/carousel11.png",
 text:'Improve real-time operator insights!'
 }
 ];
