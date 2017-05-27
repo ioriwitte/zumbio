@@ -11,7 +11,7 @@
 
 
 
-angular.module('hl2304App')
+angular.module('hlApp')
 
 .controller('MediaCtrl', function ($scope, youtubeEmbedUtils) {
   // 'VvTvtIeXJ1I'
