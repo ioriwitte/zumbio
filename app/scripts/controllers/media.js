@@ -13,7 +13,7 @@
 
 angular.module('hlApp')
 
-.controller('MediaCtrl', function ($scope, youtubeEmbedUtils) {
+.controller('MediaCtrl', function ($scope) {
   // 'VvTvtIeXJ1I'
   //console.log(youtubeEmbedUtils.getIdFromURL('https://www.youtube.com/watch?v=suG-c_i2fBQ'));
 //}
@@ -25,6 +25,6 @@ angular.module('hlApp')
  };
 
 
-  $scope.anotherGoodOne = 'https://www.youtube.com/watch?v=iVvXB-Vwnco';
+  $scope.anotherGoodOne = 'https://www.youtube.com/watch?v=E1ciy4dzpVc';
 });
 
