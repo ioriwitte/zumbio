@@ -1,4 +1,6 @@
+/**
 'use strict';
+**/
 
 /**
  * @ngdoc function
@@ -81,7 +83,7 @@ authCtrl.signup = function (){
 
   angular.module('hlApp')
 
-  .controller('SignupCtrl', ['$firebase','$scope','FbAuthService',function($scope,$firebase, FbAuthService){
+  .controller('SignupCtrl', ['$scope','FbAuthService',function($scope, FbAuthService){
 
     $scope.register = function(email,password,info){
     FbAuthService.register(email,password,info);
@@ -91,7 +93,7 @@ authCtrl.signup = function (){
 }]);
 
   angular.module('hlApp')
-    .service('FbAuthService',['$firebase','$firebaseAuth','$location',function($firebaseAuth,$firebase, $location){
+    .service('FbAuthService',['$firebaseAuth','$location',function($firebaseAuth, $location){
 
 var config = {
     apiKey: "AIzaSyC7LFtf_f2eSSdvsNX4HwThmNVDw0m5D_M",
