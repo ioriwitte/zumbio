@@ -1,5 +1,22 @@
 
- <!--<body ng-controller="SignupCtrl">-->
+ 
+<!--
+<form ng-submit="authCtrl.signup()">
+  <div class="input-group">
+    <input type="email" class="form-control" placeholder="Email" ng-model="authCtrl.user.email">
+  </div>
+  <div class="input-group">
+    <input type="password" class="form-control" placeholder="Password" ng-model="authCtrl.user.password">
+  </div>
+  <input type="submit" class="btn btn-default" value="SignUp">
+  <div ng-show="authCtrl.error">
+  <span>{{ authCtrl.error.message }}</span>
+</div>
+</form>
+ -->
+
+
+ <body ng-controller="SignupCtrl">
  <form class="form-signin" name="regForm">
     <div class="form-group" ng-class="{ 'has-error' : regForm.email.$invalid }">
         <label>Email</label>
@@ -15,7 +32,7 @@
     <label class="checkbox">
         <a href="#/register"> Sign In</a>
     </label>
-    <button type="button" ladda-loading="login.loading" data-style="expand-right" ng-click="signUp();" ng-disabled="!user.email || !user.password" class="btn btn-lg segoe-ui-light ladda-button btn-primary btn-block">Register</button>
+    <button type="button" ladda-loading="login.loading" data-style="expand-right" ng-click="signUp();" ng-disabled="!user.email || !user.password" class="btn btn-lg segoe-ui-light ladda-button btn-primary btn-block">Sign Up</button>
 </form>
-<!--</body>-->
+</body>
  
