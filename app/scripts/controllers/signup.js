@@ -81,7 +81,7 @@ authCtrl.signup = function (){
 
   angular.module('hlApp')
 
-  .controller('SignupCtrl', ['$scope','FbAuthService',function($scope,FbAuthService){
+  .controller('SignupCtrl', ['$firebase','$scope','FbAuthService',function($scope,$firebase, FbAuthService){
 
     $scope.register = function(email,password,info){
     FbAuthService.register(email,password,info);
@@ -91,7 +91,7 @@ authCtrl.signup = function (){
 }]);
 
   angular.module('hlApp')
-    .service('FbAuthService',['$firebaseAuth','$location',function($firebaseAuth,$location){
+    .service('FbAuthService',['$firebase','$firebaseAuth','$location',function($firebaseAuth,$firebase, $location){
 
 var config = {
     apiKey: "AIzaSyC7LFtf_f2eSSdvsNX4HwThmNVDw0m5D_M",
