@@ -80,7 +80,7 @@ authCtrl.signup = function (){
 **/
 
 
-
+/**
   angular.module('hlApp')
 
   .controller('SignupCtrl', ['$scope','FbAuthService',function($scope, FbAuthService){
@@ -91,9 +91,10 @@ authCtrl.signup = function (){
 
 
 }]);
+**/
 
   angular.module('hlApp')
-    .service('FbAuthService',['$firebaseAuth','$location',function($firebaseAuth, $location){
+    .controller('SignupCtrl', ['$firebaseAuth','$location',function($firebaseAuth, $location){
 
 var config = {
     apiKey: "AIzaSyC7LFtf_f2eSSdvsNX4HwThmNVDw0m5D_M",
