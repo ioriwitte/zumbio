@@ -1,4 +1,4 @@
-angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate','youtube-embed'])
+angular.module('hlApp', ['ngRoute','ui.bootstrap','ui.grid','ngAnimate','youtube-embed','firebase'])
 
 .config(['$locationProvider', function($locationProvider) {
   $locationProvider.hashPrefix('');
