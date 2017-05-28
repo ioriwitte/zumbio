@@ -79,7 +79,7 @@ authCtrl.signup = function (){
 
 
 
-  angular.module('hl4App')
+  angular.module('hlApp')
 
   .controller('SignupCtrl', ['$scope','FbAuthService',function($scope,FbAuthService){
 
