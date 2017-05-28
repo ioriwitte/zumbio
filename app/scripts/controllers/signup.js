@@ -90,7 +90,7 @@ authCtrl.signup = function (){
 
 }]);
 
-  angular.module('hl2304App')
+  angular.module('hlApp')
     .service('FbAuthService',['$firebaseAuth','$location',function($firebaseAuth,$location){
 
 var config = {
