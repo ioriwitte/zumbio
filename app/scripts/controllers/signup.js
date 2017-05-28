@@ -8,7 +8,7 @@
  * Controller of the hl2304App
  */
  /**
-angular.module('hlApp')
+angular.module('hl2304App')
   .controller('SignupCtrl', ['$scope','$location','$firebaseAuth', function($scope,$location,$firebaseAuth) {
  	$scope.mesg = 'Hello';
 
@@ -45,7 +45,42 @@ angular.module('hlApp')
 };
 }]);**/
 
-angular.module('hlApp')
+/**
+angular.module('hl2304App')
+
+  .controller('AuthCtrl', function(Auth, $state){
+    var authCtrl = this;
+
+    authCtrl.user = {
+      email: '',
+      password: ''
+    };
+ 
+authCtrl.register = function (){
+  Auth.$signInWithEmailAndPassword(authCtrl.user.email, authCtrl.user.password).then(function (auth){
+    $state.go('home');
+  }, function (error){
+    authCtrl.error = error;
+  });
+
+};
+
+ 
+authCtrl.signup = function (){
+  Auth.$createUserWithEmailAndPassword(authCtrl.user.email, authCtrl.user.password).then(function (user){
+    $state.go('home');
+  }, function (error){
+    authCtrl.error = error;
+  });
+
+};
+ });
+**/
+
+
+
+  angular.module('hl2304App')
+
   .controller('SignupCtrl', ['$scope','FbAuthService',function($scope,FbAuthService){
 
     $scope.register = function(email,password,info){
@@ -55,9 +90,8 @@ angular.module('hlApp')
 
 }]);
 
-  angular.module('hlApp')
-
-   .service('FbAuthService',['$firebaseAuth','$location',function($firebaseAuth,$location){
+  angular.module('hl2304App')
+    .service('FbAuthService',['$firebaseAuth','$location',function($firebaseAuth,$location){
 
 var config = {
     apiKey: "AIzaSyC7LFtf_f2eSSdvsNX4HwThmNVDw0m5D_M",
