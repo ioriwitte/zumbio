@@ -26,5 +26,9 @@ angular.module('hlApp')
 
 
   $scope.anotherGoodOne = 'https://youtu.be/yFZAqp4R5Rg';
+  $scope.anotherGoodTwo = 'https://youtu.be/Z0QMCQ6LeII';
+  $scope.anotherGoodThree = 'https://youtu.be/stkMrNXi_As';
+
+  
 });
 
