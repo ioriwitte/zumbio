@@ -16,7 +16,7 @@ content:"One target scenario for Zumbio! are abandoned mines that pose significa
 url:"images/ghsystemarchitecture.png"}, 
 
 { title:"Real-time information retrieval and data visualization",
-content:"Sugar besides being bad for diabetes, it also causes overweight and obesity problems. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in.",
+content:"Our solution is optimized for low-cost 2D LiDAR sensors such as Scanse Sweep (USD 249, 40m outdoors range, 120g weight) or the RP A2 (USD 398, 1m outdoors range, 179g weight) (specs and benchmark to be found in DIYRobocars or IEEE Spectrum).",
 url:"images/tiltrangeroverlaylarge.png"}, 
 
 { title:"Operator control and interactivity of visualized information",
