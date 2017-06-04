@@ -20,7 +20,7 @@ content:"Our precise localization algorithm is optimized for low-cost 2D LiDAR s
 url:"images/tiltrangeroverlaylarge.png"}, 
 
 { title:"Operator control and interactivity of visualized information",
-content:"Sugar besides being bad for diabetes, it also causes overweight and obesity problems.Lorem ipsum dolor sit amet, consectetur adipiscingelit. Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in, venenatis ut nisl. Quisque eget bibendum libero. Nam nec mi augue.",
+content:"Tasks typically performed for e.g., geological analysis by a human operator (non-autonomous scenario) such as 2D measurement of linear lengths of a planar and a volumetric feature, using an interaction device for point selection, or the interpretation of features from individual points from a point cloud, highlighted across areas of interest, require high degrees of accuracy. Although a difference in operator performance between 2D and 3D LiDAR point cloud visualization manipulations had not been revealed by human factors research (cp., e.g., Burwell (2016)), accuracy of data interpretation by remote operators can be supported through certain visualization techniques. We are experts in NUI (Natural User Interfaces) and offer optimized interaction techniques to manipulate large amounts of data in an innovative and intuitive way.",
 url:"images/scifidatainteraction.png"}
 ];
 
