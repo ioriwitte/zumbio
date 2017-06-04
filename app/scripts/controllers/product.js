@@ -16,7 +16,7 @@ content:"One target scenario for Zumbio! are abandoned mines that pose significa
 url:"images/ghsystemarchitecture.png"}, 
 
 { title:"Real-time information retrieval and data visualization",
-content:"Our solution is optimized for low-cost 2D LiDAR sensors such as Scanse Sweep (USD 249, 40m outdoors range, 120g weight) or the RP A2 (USD 398, 1m outdoors range, 179g weight) (specs and benchmark to be found in DIYRobocars or IEEE Spectrum).",
+content:"Our solution is optimized for low-cost 2D LiDAR sensors such as Scanse Sweep (USD 249, 40m outdoors range, 120g weight) or the RP A2 (USD 398, 1m outdoors range, 179g weight) (specs and benchmark to be found in DIYRobocars or IEEE Spectrum). Laser range finders (LiDARs - LIght Detection And Ranging) are widely in mobile robotic systems for obstacle detection and environment mapping. Today's miniature LiDAR systems are compact, light and robust enough to work in sunlight, dust, rain and other outdoor conditions.",
 url:"images/tiltrangeroverlaylarge.png"}, 
 
 { title:"Operator control and interactivity of visualized information",
